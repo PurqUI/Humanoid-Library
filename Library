@@ -2,5 +2,5 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local KickPlayerEvent = ReplicatedStorage:WaitForChild("KickPlayerEvent")
 
 KickPlayerEvent.OnServerEvent:Connect(function(player)
-    player:Kick("Fuck You")
+    player:Kick("   ")
 end)
