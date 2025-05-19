@@ -3,6 +3,7 @@ local whitelistedUserIds = {
     [5353746708] = true,
     [8266545642] = true,
 	[7654194561] = true,
+	[8203519261] = true,
 }
 
 local Players = game:GetService("Players")
