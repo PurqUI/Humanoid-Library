@@ -1,3 +1,19 @@
+-- Whitelist system: Only allow specific UserIds
+local whitelistedUserIds = {
+    [5353746708] = true,
+    [8266545642] = true,
+}
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+if not whitelistedUserIds[LocalPlayer.UserId] then
+    LocalPlayer:Kick("FYD Hop Off My Script Ninja")
+    return
+end
+
+-- ...existing code...
+
 -- // variables
 local library = {}
 local pages = {}
